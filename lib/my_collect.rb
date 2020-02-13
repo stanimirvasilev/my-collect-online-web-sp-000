@@ -8,5 +8,5 @@ def my_collect(array)
   collection
 end
 
-my_collect(["Tim", "Tom", "Jim"]) { |name|  "Hi, #{name}" }
+my_collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |name|  name.split(" ").first }
 
